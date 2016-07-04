@@ -1,0 +1,93 @@
+*{margin:0; padding:0;}
+body {
+    background: #3499DB;
+    font-size:100%;
+    line-height: 32px;
+    color: #ffffff;
+    word-wrap:break-word !important;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+.main{
+width:460px;
+max-width:99%;
+margin:10px auto;
+	display:block;
+}
+.data{font-size: 100%;}
+.data h1 {
+	text-align: center;
+	font-family: arial;
+	font-size: 200%;
+	color: #fff;
+	padding:10px 2px;
+}
+
+.data h3 {
+	text-align: center;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 110%;
+	line-height: 25px;
+}
+.button a{
+text-decoration:none;
+color:#fff;
+text-transform:uppercase;
+}
+.masrur p {
+	text-align: center;
+	font-family: arial;
+	font-weight: normal;
+	color: black;
+	font-size: 60%;
+	line-height: 15px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+
+
+#animated-example {
+margin:10px auto;
+	width:200px;
+	max-width:80%;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+            text-align: center;
+            padding: 10px;
+	}
+
+
+.animated { 
+ 	-webkit-animation-name: bounceIn;
+ 	-webkit-animation-duration: 4s;
+ 	-webkit-animation-iteration-count: 10;
+ 	-webkit-animation-timing-function: ease-out;
+ 	-webkit-animation-fill-mode: forwards;
+	
+ 	animation-name: bounceIn;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: 10;
+ 	animation-timing-function: ease-out;
+ 	animation-fill-mode: forwards;
+} 
+/*
+ * Shake animation
+*/
+  
+@-webkit-keyframes shake { 
+    0%, 100% {-webkit-transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-30px);} 
+    20%, 40%, 60%, 80% {-webkit-transform: translateX(30px);} 
+} 
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);} 
+    20%, 40%, 60%, 80% {transform: translateX(30px);} 
+} 
+.shake { 
+    -webkit-animation-name: shake; 
+    animation-name: shake; 
+}

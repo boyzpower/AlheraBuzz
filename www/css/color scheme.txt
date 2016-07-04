@@ -1,0 +1,7 @@
+HEADER 21B8C6
+Background 0B7781 , 19398F, 0CA41F, 79C30E ,125588,
+body menu 55D6E3
+slide menu a 388D95
+slide h 7BDAE3
+
+
